@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: #fff;
+     
+}
+#header{
+    width: 100%;
+    height: 100vh;
+     background-image: url(image/); 
+    background-size: cover;
+    background-position: center;
+    
+}
+
+container{
+    width: 100%;
+    
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    margin: 0px;
+    margin-right: 100px;
+}
+ul, li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+
+ .logo a{
+    font-size: 43px;
+    color: rgb(231, 91, 91);
+    font-weight: bold;
+    margin-left: 100px;
+} 
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: red;
+}
+/* .header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+.container  img{
+    width: 100%;
+}
+
+
+.container {
+     background-color: rgb(26, 26, 26); 
+    display: flex;
+    padding: 5% 3%; 
+    
+}
+.container button {
+    background-color: rgb(55, 51, 51);
+    width: 25%;
+    height: 3rem;
+    cursor: pointer;
+    color: #e9e0e0;
+    position: relative;
+    left: 35px;
+   
+}
+
+.left-side img {
+   width: 100%;
+   border-radius: 15px;
+} 
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1%;
+    padding: 0 2%;
+    flex-basis: 60%;
+    
+}
+
+.right-side h1, h4{
+    font-weight: normal;
+    padding: 5%;
+    color: rgb(234, 247, 247);
+    
+}
+ .right-side h1{
+    font-size: 60px;
+    color: rgb(250, 245, 245);
+ }
+
+ #about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* .about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+} */
+
+.about-col-2{
+    flex-basis: 60%;
+}
+.about-col-2 p{
+    font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+.about-col-2 h1{
+    font-size: 30px;
+}
+
+.container1{
+    background-color: rgb(26, 26, 26); 
+    padding: 5% 3%; 
+}
+.project {
+  margin: 20px;
+}
+
+/* .project h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+} */
+.container1 .project p1{
+ font-size: 20px;
+}
+.container1 .project h3{
+    font-size: 22px;
+}
+
+.container1 .project h2{
+ font-size: 30px;
+}
+
+/* Skills section */
+#skills ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#skills li {
+    margin: 0 15px;
+    color: var(--accent-2);
+    font-size: 28px;
+}
+
+#skills li:hover {
+    color: var(--accent-1);
+}
+#skills h2{
+    position: relative;
+    left: 38px;
+    font-size: 30px;
+}
+footer {
+    border-top: 1px solid var(--accent-1);
+    margin-top: 100px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    
+}
+#contact h2{
+    font-size: 30px;
+    position: relative;
+    left: 37px;
+}
+/* contactpage */
+
+#contact ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+
+#contact li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+#contact i {
+    font-size: 40px;
+    color: var(--accent-2);
+    position: relative;
+    left: 37px;
+}
+
+#contact i:hover {
+    color: var(--accent-1);
+}
+#contact-footer {
+    position: absolute;
+    bottom: 0;
+}
