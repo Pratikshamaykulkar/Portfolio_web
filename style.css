@@ -199,6 +199,43 @@ h1 {
     left: 38px;
     font-size: 30px;
 }
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  #skills li {
+    margin: 0 15px;
+    font-size: 32px;
+  }
+  
+  #skills li i {
+    color: gray; /* Set a default color for the symbols */
+  }
+  
+  /* Set different colors for each skill */
+  #skills li:nth-child(1) i {
+    color: red; /* HTML symbol color */
+  }
+  
+  #skills li:nth-child(2) i {
+    color: blue; /* CSS symbol color */
+  }
+  
+  #skills li:nth-child(3) i {
+    color: yellow; /* JavaScript symbol color */
+  }
+  
+  /* Add styles for other skills as needed */
+  
+  #skills h2 {
+    position: relative;
+    left: 38px;
+    font-size: 30px;
+  }
+  
 footer {
     border-top: 1px solid var(--accent-1);
     margin-top: 100px;
